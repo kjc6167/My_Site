@@ -11,12 +11,32 @@ font-family: arial, helvetica, sans-serif;
  */
 
 ol {list-style-type: lower-alpha;
-padding: 5em;
-    
+background-color: #FFBDCF;
+padding: 3em;
 }
-body section{
-background-color: /*BurlyWood*/ #331a00;
-/* ebb: Looking for colors and color codes? Try the HTML color picker: https://www.w3schools.com/colors/colors_picker.asp */
+
+
+
+ul {list-style-type: lower-alpha;
+background-color: #FFBDCF;
+padding: 3em;
+}
+
+p {list-style-type: lower-alpha;
+background-color: #d5ff80;
+padding: 3em;
+}
+
+h1 {list-style-type: lower-alpha;
+background-color: #331a00;
+padding: 1em;
 color: #EFEFEF;
-font-family: arial, helvetica, sans-serif;
 }
+
+h2 {list-style-type: lower-alpha;
+background-color: #331a00;
+padding: 1em;
+color: #EFEFEF;
+}
+
+
