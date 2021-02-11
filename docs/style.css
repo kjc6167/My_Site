@@ -13,6 +13,9 @@ font-family: arial, helvetica, sans-serif;
 ol {list-style-type: lower-alpha;
 background-color: #FFBDCF;
 padding: 3em;
+text-align: center;
+margin-left: 10em;
+margin-right: 10em;
 }
 
 
@@ -20,23 +23,37 @@ padding: 3em;
 ul {list-style-type: lower-alpha;
 background-color: #FFBDCF;
 padding: 3em;
+text-align: center;
+margin-left: 10em;
+margin-right: 10em;
 }
 
 p {list-style-type: lower-alpha;
 background-color: #d5ff80;
 padding: 3em;
+text-align: center;
+margin-left: 10em;
+margin-right: 10em;
 }
 
 h1 {list-style-type: lower-alpha;
 background-color: #331a00;
 padding: 1em;
 color: #EFEFEF;
+text-align: center;
 }
 
 h2 {list-style-type: lower-alpha;
 background-color: #331a00;
 padding: 1em;
 color: #EFEFEF;
+text-align: center;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
 
