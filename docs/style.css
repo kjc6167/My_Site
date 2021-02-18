@@ -1,8 +1,8 @@
 
 body{
+background-image: url("images/plantleaves.jpg");
 background-color: /*BurlyWood*/ #fff2e6;
-/* ebb: Looking for colors and color codes? Try the HTML color picker: https://www.w3schools.com/colors/colors_picker.asp */
-font-family: arial, helvetica, sans-serif;
+font-family: Garamond;
 }
 
 /* ebb: This is a comment in CSS: 
@@ -11,7 +11,7 @@ font-family: arial, helvetica, sans-serif;
  */
 
 ol {list-style-type: lower-alpha;
-background-color: #FFBDCF;
+background-color: #fffee4;
 padding: 3em;
 text-align: center;
 margin-left: 10em;
@@ -21,7 +21,7 @@ margin-right: 10em;
 
 
 ul {list-style-type: lower-alpha;
-background-color: #FFBDCF;
+background-color: #fffee4;
 padding: 3em;
 text-align: center;
 margin-left: 10em;
@@ -29,7 +29,7 @@ margin-right: 10em;
 }
 
 p {list-style-type: lower-alpha;
-background-color: #d5ff80;
+background-color: #fffee4;
 padding: 3em;
 text-align: center;
 margin-left: 10em;
@@ -38,6 +38,7 @@ margin-right: 10em;
 
 h1 {list-style-type: lower-alpha;
 background-color: #331a00;
+font-size: 2vw;
 padding: 1em;
 color: #EFEFEF;
 text-align: center;
@@ -57,3 +58,12 @@ img {
   width: 25%;
 }
 
+div.menuA{
+text-align:center;
+background-color: #331a00;
+color: #EFEFEF;
+font-size: 2vw;
+padding: 1vw;
+padding-left: 3vw;
+padding-right: 3vw;
+}
