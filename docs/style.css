@@ -37,7 +37,7 @@ margin-right: 10em;
 }
 
 h1 {list-style-type: lower-alpha;
-background-color: #331a00;
+background-color: #1a0d00;
 font-size: 2vw;
 padding: 1em;
 color: #EFEFEF;
@@ -45,7 +45,7 @@ text-align: center;
 }
 
 h2 {list-style-type: lower-alpha;
-background-color: #331a00;
+background-color: #1a0d00;
 padding: 1em;
 color: #EFEFEF;
 text-align: center;
@@ -60,10 +60,30 @@ img {
 
 div.menuA{
 text-align:center;
-background-color: #331a00;
+background-color: #1a0d00;
 color: #EFEFEF;
 font-size: 2vw;
 padding: 1vw;
 padding-left: 3vw;
 padding-right: 3vw;
+}
+
+/* unvisited link */
+a:link {
+  color: #33cc33;
+}
+
+/* visited link */
+a:visited {
+  color: #669900;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff1a66;
+}
+
+/* selected link */
+a:active {
+  color: #ff1a66;
 }
