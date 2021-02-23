@@ -2,7 +2,7 @@
 body{
 background-image: url("images/plantleaves.jpg");
 background-color: /*BurlyWood*/ #fff2e6;
-font-family: Garamond;
+font-family: Garamond, serif;
 }
 
 /* ebb: This is a comment in CSS: 
@@ -10,45 +10,62 @@ font-family: Garamond;
  * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
  */
 
-ol {list-style-type: lower-alpha;
+section#contact {
 background-color: #fffee4;
-padding: 3em;
 text-align: center;
-margin-left: 10em;
-margin-right: 10em;
+margin-left: 20vw;
+margin-right: 20vw;        
 }
 
 
 
-ul {list-style-type: lower-alpha;
-background-color: #fffee4;
-padding: 3em;
-text-align: center;
-margin-left: 10em;
-margin-right: 10em;
-}
-
-p {list-style-type: lower-alpha;
-background-color: #fffee4;
-padding: 3em;
-text-align: center;
-margin-left: 10em;
-margin-right: 10em;
-}
-
-h1 {list-style-type: lower-alpha;
+h1{
 background-color: #1a0d00;
 font-size: 2vw;
 padding: 1em;
 color: #EFEFEF;
 text-align: center;
 }
+ol {list-style-type: lower-alpha;
+background-color: #fffee4;
+padding: 3em;
+text-align: center;
+}
+
+li {
+padding: 3em;
+}
+
+ul {list-style-type: lower-alpha;
+background-color: #fffee4;
+padding: 3em;
+text-align: center;
+margin-left: 20vw;
+margin-right: 20vw;
+}
+
+p {list-style-type: lower-alpha;
+background-color: #fffee4;
+padding: 3em;
+text-align: center;
+margin-left: 20vw;
+margin-right: 20vw;
+}
+
 
 h2 {list-style-type: lower-alpha;
 background-color: #1a0d00;
 padding: 1em;
 color: #EFEFEF;
 text-align: center;
+}
+
+h3 {list-style-type: lower-alpha;
+background-color: #fffee4;
+padding: 3em;
+text-align: center;
+margin-left: 20vw;
+margin-right: 20vw;
 }
 
 img {
