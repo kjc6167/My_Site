@@ -115,12 +115,12 @@ padding-right: 3vw;
 /*LINKS*/
 /* unvisited link */
 a:link {
-  color: #C2FF00;
+  color: #BEFF00;
 }
 
 /* visited link */
 a:visited {
-  color: #669900;
+  color: #C600FF;
 }
 
 /* mouse over link */
