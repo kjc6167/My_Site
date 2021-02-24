@@ -11,7 +11,7 @@ section {
 background-color: #FFF3CD;
 margin-left: 20vw;
 margin-right: 20vw;    
-padding: .5em;
+padding: .2em;
 }
 
 section#header {
@@ -21,6 +21,12 @@ color: #EFEFEF;
 margin-left: .5vw;
 margin-right: .5vw; 
 padding: .2em;
+text-align: center;
+}
+
+section#content {
+
+
 }
 
 /*LISTS*/
@@ -31,7 +37,7 @@ padding: .5em;
 ul {
 background-color: #FFF3CD;
 padding: .5em;
-margin-left: 1vw;
+margin-left: 2vw;
 }
 
 li ul {
@@ -53,7 +59,7 @@ border-radius: 5vw;
 /*PARAGRAPHS*/
 p {list-style-type: lower-alpha;
 background-color: #FFF3CD;
-padding: .5em;
+padding: 1vw;
 text-align: center;
 margin-left: 20vw;
 margin-right: 20vw;
@@ -64,22 +70,23 @@ font-size: 1.5vw;
 /*HEADERS*/
 h1{
 background-color: #1a0d00;
-font-size: 2vw;
+font-size: 2.5vw;
 padding: .2em;
 color: #EFEFEF;
 text-align: center;
 }
 
-h2 {list-style-type: lower-alpha;
+h2 {
 background-color: #1a0d00;
 padding: 1em;
 color: #EFEFEF;
 text-align: center;
+font-size: 2vw;
 }
 
-h3 {list-style-type: lower-alpha;
+h3 {
 background-color: #FFF3CD;
-padding: .2em;
+padding: 1em;
 text-align: center;
 margin-left: 20vw;
 margin-right: 20vw;
