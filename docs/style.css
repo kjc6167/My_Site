@@ -77,14 +77,6 @@ text-align: center;
 }
 
 h2 {
-background-color: #1a0d00;
-padding: 1em;
-color: #EFEFEF;
-text-align: center;
-font-size: 2vw;
-}
-
-h3 {
 background-color: #FFF3CD;
 padding: 1em;
 text-align: center;
@@ -115,7 +107,7 @@ padding-right: 3vw;
 /*LINKS*/
 /* unvisited link */
 a:link {
-  color: #BEFF00;
+  color: #C600FF;
 }
 
 /* visited link */
