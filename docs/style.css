@@ -1,57 +1,74 @@
-
+/*BODY*/
 body{
 background-image: url("images/plantleaves.jpg");
-background-color: /*BurlyWood*/ #fff2e6;
+background-color: /*BurlyWood*/ #FFF3CD;
 font-family: Garamond, serif;
+font-size: 1.2vw
 }
 
-/* ebb: This is a comment in CSS: 
- * Notice that the properties I set on the <body> element get passed down to elements inside it. So all my text is the color and font that I set here. 
- * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
- */
+/*SECTIONS*/
+section {
+background-color: #FFF3CD;
+margin-left: 20vw;
+margin-right: 20vw;    
+padding: .5em;
+}
 
-section#contact {
-background-color: #fffee4;
+section#header {
+background-color: #1a0d00;
+font-size: 2vw;
+color: #EFEFEF;
+margin-left: .5vw;
+margin-right: .5vw; 
+padding: .2em;
+}
+
+/*LISTS*/
+li {
+padding: .5em;
+}
+
+ul {
+background-color: #FFF3CD;
+padding: .5em;
+margin-left: 1vw;
+}
+
+li ul {
+list-style-type: circle;
+font-size: .9vw;
+}
+
+/*HORIZONTAL LINES*/
+hr {
+border: .2vw solid black;
+border-radius: 5vw;
+}
+
+hr#light {
+border: .2vw solid #EFEFEF;
+border-radius: 5vw;
+}
+
+/*PARAGRAPHS*/
+p {list-style-type: lower-alpha;
+background-color: #FFF3CD;
+padding: .5em;
 text-align: center;
 margin-left: 20vw;
-margin-right: 20vw;        
+margin-right: 20vw;
+font-size: 1.5vw;
 }
 
-
-
+/*fffee4*/
+/*HEADERS*/
 h1{
 background-color: #1a0d00;
 font-size: 2vw;
-padding: 1em;
+padding: .2em;
 color: #EFEFEF;
 text-align: center;
 }
-ol {list-style-type: lower-alpha;
-background-color: #fffee4;
-padding: 3em;
-text-align: center;
-}
-
-li {
-padding: 3em;
-}
-
-ul {list-style-type: lower-alpha;
-background-color: #fffee4;
-padding: 3em;
-text-align: center;
-margin-left: 20vw;
-margin-right: 20vw;
-}
-
-p {list-style-type: lower-alpha;
-background-color: #fffee4;
-padding: 3em;
-text-align: center;
-margin-left: 20vw;
-margin-right: 20vw;
-}
-
 
 h2 {list-style-type: lower-alpha;
 background-color: #1a0d00;
@@ -61,13 +78,15 @@ text-align: center;
 }
 
 h3 {list-style-type: lower-alpha;
-background-color: #fffee4;
-padding: 3em;
+background-color: #FFF3CD;
+padding: .2em;
 text-align: center;
 margin-left: 20vw;
 margin-right: 20vw;
+font-size: 2vw;
 }
 
+/*IMAGES/GIFS*/
 img {
   display: block;
   margin-left: auto;
@@ -75,6 +94,7 @@ img {
   width: 25%;
 }
 
+/*DIVISIONS*/
 div.menuA{
 text-align:center;
 background-color: #1a0d00;
@@ -85,9 +105,10 @@ padding-left: 3vw;
 padding-right: 3vw;
 }
 
+/*LINKS*/
 /* unvisited link */
 a:link {
-  color: #33cc33;
+  color: #C2FF00;
 }
 
 /* visited link */
