@@ -24,11 +24,6 @@ padding: .2em;
 text-align: center;
 }
 
-section#content {
-
-
-}
-
 /*LISTS*/
 li {
 padding: .5em;
@@ -107,12 +102,12 @@ padding-right: 3vw;
 /*LINKS*/
 /* unvisited link */
 a:link {
-  color: #98EB00;
+  color: #22A2A5;
 }
 
 /* visited link */
 a:visited {
-  color: #EBC000;
+  color: #76A522;
 }
 
 /* mouse over link */
@@ -122,5 +117,21 @@ a:hover {
 
 /* selected link */
 a:active {
+  color: #ff1a66;
+}
+
+.menuA a:link {
+color: #EBD200;
+}
+
+.menuA a:visited {
+color: #98EB00;
+}
+
+.menuA a:hover {
+  color: #ff1a66;
+}
+
+.menuA a:active {
   color: #ff1a66;
 }
