@@ -18,8 +18,8 @@ section#header {
 background-color: #1a0d00;
 font-size: 2vw;
 color: #EFEFEF;
-margin-left: .5vw;
-margin-right: .5vw; 
+margin-left: 0.5vw;
+margin-right: 0.5vw; 
 padding: .2em;
 text-align: center;
 }
@@ -52,13 +52,18 @@ border-radius: 5vw;
 }
 
 /*PARAGRAPHS*/
-p {list-style-type: lower-alpha;
+p {
 background-color: #FFF3CD;
 padding: 1vw;
-text-align: center;
+text-align: left;
 margin-left: 20vw;
 margin-right: 20vw;
 font-size: 1.5vw;
+}
+
+p#intro {
+margin-left: 0vw;
+margin-right: 0vw;    
 }
 
 /*fffee4*/
