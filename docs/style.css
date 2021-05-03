@@ -9,8 +9,8 @@ font-size: 1.2vw
 /*SECTIONS*/
 section {
 background-color: #FFF3CD;
-margin-left: 20vw;
-margin-right: 20vw;    
+margin-left: 10em;
+margin-right: 10em;    
 padding: .2em;
 }
 
@@ -56,8 +56,8 @@ p {
 background-color: #FFF3CD;
 padding: 1vw;
 text-align: left;
-margin-left: 20vw;
-margin-right: 20vw;
+margin-left: 2em;
+margin-right: 2em;
 font-size: 1.5vw;
 }
 
@@ -115,9 +115,6 @@ div.UI{
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-
-    
-    
 }
 
 /*LINKS*/
@@ -156,3 +153,115 @@ color: #98EB00;
 .menuA a:active {
   color: #ff1a66;
 }
+
+/*@settings {
+  template: stakeholder;
+  element-color: categorize("Element Type", neon2);
+}
+
+/\* elements:  *\/
+["Label"="Beyond First Arc"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/3829249c-c43b-441f-824f-a198ab6f4148.png);
+}
+
+/\* elements:  *\/
+["Label"="Beyond Second Arc"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/d3b3feee-dd97-4922-8b3b-76d66282307a.png);
+}
+
+/\* elements:  *\/
+["Label"="Beyond Third Arc"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/8da3fc26-b4af-458e-bea9-245dfdb7195c.png);
+}
+
+/\* elements:  *\/
+["Label"="Beyond Bramble Arc"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/4800c812-ddd8-4b75-8e35-bc8f4f5515b0.png);
+}
+
+/\* elements:  *\/
+["Label"="Tadpole"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/9656a431-5b82-469c-b369-474c7ca2bc41.png);
+}
+
+/\* elements:  *\/
+["Label"="Tadpole Form"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/60810c79-c4b1-4dc8-a232-6399afb06b69.png);
+}
+
+/\* elements:  *\/
+["Label"="Tadpole with Legs Form"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/734874bd-52f5-41ce-9c9c-4333bc9bc6a8.png);
+}
+
+/\* elements:  *\/
+["Label"="Frog Form"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/e0325c41-5b3c-4b1f-b2ae-1ddee1e40d4d.png);
+}
+
+/\* elements:  *\/
+["Label"="Heart"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/783aef27-5966-4d1f-869a-ad938dd32268.png);
+}
+
+/\* elements:  *\/
+["Label"="Dirt"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/294739ae-3d5b-4e97-b66c-17a5b32ecc19.png);
+}
+
+/\* elements:  *\/
+["Label"="Golden Dragonfly"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/b93ca2b5-a11b-4fc3-aeea-cf977bc4c60d.png);
+}
+
+/\* elements:  *\/
+["Label"="Fly"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/e1397d62-1ad7-4561-8cf3-774ea47b07fd.png);
+}
+
+/\* elements:  *\/
+["Label"="Ladybug"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/750250cf-77ac-4097-94cf-d4e02c0c2705.png);
+}
+
+/\* elements:  *\/
+["Label"="Duck"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/0db208ad-4d4f-4936-ade8-7062eb9ed1c7.png);
+}
+
+/\* elements:  *\/
+["Label"="Otter"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/662a1d08-9700-4a86-910e-afa65becd21e.png);
+}
+
+/\* elements:  *\/
+["Label"="Toad"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/ebea199b-61a5-4bf9-b5d5-d89e36f21d54.png);
+}
+
+/\* elements:  *\/
+["Label"="Polluted Tadpole"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/e4787137-be0c-490c-b91c-eae241e6a3c0.png);
+}
+
+/\* elements:  *\/
+["Label"="Polluted Tadpole with Legs"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/6ce1d7ac-c381-43e8-b6fe-44c02a64057d.png);
+}
+
+/\* elements:  *\/
+["Label"="Polluted Small Fish"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/e37926dd-b4f4-436f-bc76-9c51a737f1e6.png);
+}
+
+/\* elements:  *\/
+["Label"="Polluted Big Fish"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/982a1e4b-f30f-4de6-b5b9-3f920ea34e0a.png);
+}
+
+/\* elements:  *\/
+["Label"="Polluted Frog"] {
+  image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/295425/668652/fc9c2e60-4751-4ee7-a2d2-3da79d023fed.png);
+}
+
+*/
