@@ -1,1 +1,2 @@
-# MySite is for my DIGIT 100 course at PSU.
+# MySite is for my online portfolio and basic information about me
+.
